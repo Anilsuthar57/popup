@@ -1,0 +1,167 @@
+body {
+    background-color: rgba(222, 205, 172, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.main {
+    display: flex;
+
+}
+
+.container {
+    width: 485px;
+    height: 243px;
+    background-color: rgba(254, 250, 243, 1);
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.span-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 63px;
+    border-radius: 31px;
+    background-color: rgba(235, 191, 83, 1);
+    box-shadow: 0px 1px 10px -2.9px;
+
+}
+
+.span-container span {
+    font-family: 'heebo';
+    font-size: 28px;
+    color: rgb(254, 250, 243);
+
+}
+
+.main img {
+    margin-left: -100px;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+.second-main {
+    display: none;
+}
+
+.second-container {
+    display: flex;
+    width: 690px;
+    height: 346px;
+    background-color: rgba(254, 250, 243, 1);
+    border-radius: 41px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.second-container img {
+    margin-top: -33px;
+    margin-left: 50px;
+    width: 213px;
+    height: 218.1px;
+    ;
+}
+
+.second-container h1 {
+    font-family: 'Inika';
+    display: block;
+    font-size: 40px;
+    margin-left: 76px;
+    margin-top: 63px;
+}
+
+.email-container {
+
+    border: 1px solid rgba(175, 161, 135, 1);
+    width: 560px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: rgba(175, 161, 135, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-top: -101px;
+}
+
+.email-container input {
+    padding-left: 30px;
+    border: none;
+    width: 75%;
+    height: 100%;
+    border-radius: 28px 0px 0 28px;
+    background-color: rgba(238, 232, 221, 1);
+    outline: none;
+
+}
+
+.email-container button {
+    border: none;
+    font-family: 'heebo';
+    width: 35%;
+    height: 100%;
+    background-color: rgba(235, 191, 83, 1);
+    font-size: 18px;
+    color: rgba(254, 250, 243, 1);
+    border-radius: 0 28px 28px 0;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgba(175, 161, 135, 1);
+}
+
+input {
+    font-size: 20px;
+}
+
+p {
+
+    display: flex;
+    justify-content: end;
+    margin-top: -177px;
+    margin-right: 106px;
+    font-size: 18px;
+}
+
+.close-icon {
+    display: flex;
+    margin-top: -169px;
+    font-size: 35px;
+    color: rgba(175, 161, 135, 1);
+    font-weight: 700;
+    margin-left: 638px;
+    margin-bottom: -200x;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.span-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.subscribe:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.close-icon:hover {
+    color: rgba(235, 191, 83, 1);
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
